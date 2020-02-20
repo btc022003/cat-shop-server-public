@@ -1,0 +1,23 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.top-nav {
+  background-color: #666;
+}
+.btn {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+.view-info {
+  padding: 0.5rem 1rem;
+}
+.view-info canvas {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>pdf-viewer</title>
+</head>
+<body>
+  <div class="top-nav">
+    <button class="btn btn-left" id="btnPre">
+      <i class="fas fa-arrow-circle-left"></i>前一页
+    </button>
+    <button class="btn btn-left" id="btnNext">
+      后一页<i class="fas fa-arrow-circle-right"></i>
+    </button>
+  </div>
+  <div class="view-info">
+    <canvas id="pdfContainer"></canvas>
+  </div>
+  <script src="https://cdn.bootcss.com/pdf.js/2.2.2/pdf.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
